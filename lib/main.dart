@@ -1,10 +1,10 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:myapp_prakmobile/sekolahbeta.dart';
+import 'package:myapp_prakmobile/simpleCounter.dart';
 
 void main() {
-  runApp(SekolahBeta());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: SimpleCounter(),
     );
   }
 }
